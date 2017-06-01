@@ -1,0 +1,142 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+
+#meni{
+width:100%;
+height:280px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+#meni img{
+
+	float: left;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+
+#meni p{
+
+	float: left;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-top: 170px;
+	margin-left: -360px;
+
+}
+
+
+#link{
+	float: right;
+	margin-left: 100px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin-right:600px; 
+    margin-top: -100px;
+}
+
+li {
+    float: left;
+    margin-left: 20px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Calm', sans-serif;
+
+
+}
+
+
+#admin{
+	border-radius: 200px 10px 200px 200px;
+	background-color: #4CAF50;
+	width: 100px;
+	height: 100px;
+	float: right;
+	text-align: center;
+	padding: 40px;
+}
+
+#admin a{
+
+text-decoration:none;
+padding: 8px;
+color: white;
+font-weight: bold;
+font-family: 'Didact Gothic', sans-serif;
+
+}
+
+
+@font-face {
+    font-family: Calm;
+    src: url('assets/fonts/KeepCalm-Medium.ttf');
+}
+
+#onoi{
+
+	margin:0px auto;
+	width: 1000px;
+	height: 300px;
+	margin-top: 60px;
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+
+}
+
+body{
+  background-image: url("../images/rsz_pattern.jpg");
+
+}
+
+
+
+.footer{
+
+  width: 100%;
+  height:150px;
+  background-color:#4CAF50;
+  color: white;
+  margin:0px auto; 
+  box-shadow:inset 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+}
+
+
+.footer p{
+  color: white;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+ 
+}
+
+.rights{
+
+  font-size: 13px;
+  padding-top: 10px
+}
+
+.text{
+
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+

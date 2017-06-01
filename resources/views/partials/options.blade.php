@@ -1,0 +1,3 @@
+<a class="btn btn-sm btn-primary" href="{{ route('admin.'.str_singular($model->getTable()).'.show', $model) }}"><i class="glyphicon glyphicon-eye-open"></i></a>
+<a class="btn btn-sm btn-warning" href="{{ route('admin.'.str_singular($model->getTable()).'.edit', $model) }}"><i class="glyphicon glyphicon-edit"></i></a>
+<a class="btn btn-sm btn-danger"  href="{{ route('admin.'.str_singular($model->getTable()).'.destroy', $model) }}" delete><i class="glyphicon glyphicon-trash"></i></a>
